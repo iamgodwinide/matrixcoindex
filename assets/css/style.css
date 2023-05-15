@@ -39,16 +39,19 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
+    z-index: 20;
 }
 
 .enter-wrap .text{
     width: 30%;
     margin-top: -20vh;
+    cursor: pointer;
 }
 
 .enter-wrap .bar{
     width: 40%;
     margin-top: -1em;
+    cursor: pointer;
 }
 
 .shoot{
@@ -75,6 +78,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 30;
+
 }
 
 .links img{
